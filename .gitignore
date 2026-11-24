@@ -1,0 +1,41 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# .NET build artifacts
+**/bin/
+**/obj/
+.vs/
+*.user
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/*.log
+
+# Logs
+*.log
+logs/
+
+# Ollama model files
+*.gguf
+*.safetensors
+*.bin
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local runtime data
+data/
+volumes/
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
